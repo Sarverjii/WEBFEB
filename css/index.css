@@ -73,6 +73,11 @@ header{
     transition: 0.5s;
 }
 
+.ACTIVE{
+color: rgb(154, 213, 236);
+    scale: 1.1;
+    transition: 0.5s;
+}
 
 
 
