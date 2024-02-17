@@ -31,6 +31,10 @@ header{
     border-bottom: 1px solid white;
 }
 
+.heading{
+    font-weight: 900;
+}
+
 #logo{
     height: 100%;
     display: flex;
