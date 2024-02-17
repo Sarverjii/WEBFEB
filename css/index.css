@@ -230,6 +230,15 @@ main button:hover{
     margin-bottom: 10px;
     justify-content: space-between;
     margin: 10px 10px;
+    transition: 0.5s;
+}
+
+.Heading_content a{transition: 0.5s;}
+
+.Heading_content a:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    color: #809fff;
 }
 
 .contentList{
@@ -289,11 +298,12 @@ main button:hover{
     height: auto;
     padding: 10px 20px;
     font-size: 1.3vw;
-    margin-top: 10vh;
+    margin-top: 20px;
     border: 0px;
     border-radius: 7px;
     transition: 0.5s;
     cursor: pointer;
+    
 }
 
 #Gallery_container button:hover{
