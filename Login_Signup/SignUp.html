@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JNU ONE</title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="SignUp.css">
 </head>
 <body>
     <header>
@@ -26,15 +26,15 @@
 
     <main>
        <div id="login_or_register">
-            <Button id="active">Student Login</Button>
-            <Button id="inactive" onclick="window.location.href = 'SignUp.html'">Staff Login</Button>
+            <Button onclick="window.location.href='Login.html'" id="inactive">Student Login</Button>
+            <Button id="active">Staff Login</Button>
        </div>
 
        <div id="form">
 
             <form action="">
-                <label for="username">Enrollment Number:</label>
-                <input type="text" id="username" name="username" placeholder="Enrollment Number" required minlength="8" maxlength="25">
+                <label for="staffid">Staff ID Number:</label>
+                <input type="text" id="staffid" name="staffid" placeholder="Staff ID Number" required minlength="8" maxlength="25">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Password" required minlength="8" >
                 <input type="submit" id="submit" name="submit">
